@@ -8,13 +8,13 @@ export default function Layout({ children }) {
           <Link href='/'>
             <a>🏡</a>
           </Link>
-          <span className='mx-auto'>Welcome to my blog</span>{' '}
+          <span className='mx-auto'>avi's blog</span>{' '}
         </div>
       </header>
       <main className='container mx-auto flex-1'>{children}</main>
       <footer className='bg-fuchsia-100 mt-8 py-4'>
         <div className='container mx-auto flex justify-center'>
-          &copy; 2022 DailyDevTips
+          &copy; 2022 avi desai
         </div>
       </footer>
     </div>
